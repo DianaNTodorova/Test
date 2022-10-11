@@ -470,6 +470,184 @@ header {
   position: relative;
 }
 
+.section_3_elements {
+  max-width: 540px;
+  min-height: 371px;
+  position: relative;
+  background: rgba(35, 35, 35, 0.9);
+  position: absolute;
+  top: 30%;
+  right: 50%;
+}
+
+.section_3_elements h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.5px;
+  color: #e8e8e8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+
+.section_3_elements h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.section_3_elements p {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e8e8e8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section_3_elements .booking_button {
+  width: 228px;
+  height: 63px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #5474fd;
+  border: none;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section_3_elements .booking_button:hover {
+  color: #5474fd;
+  background-color: #ffffff;
+  border-color: #5474fd;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.section_4 {
+  background-image: url(/images/background4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+}
+
+.section_4_elements {
+  max-width: 540px;
+  min-height: 371px;
+  position: relative;
+  background: rgba(35, 35, 35, 0.9);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+.section_4_elements h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1.5px;
+  color: #e8e8e8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+}
+
+.section_4_elements h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.section_4_elements p {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e8e8e8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section_4_elements .booking_button {
+  width: 228px;
+  height: 63px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #5474fd;
+  border: none;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.section_4_elements .booking_button:hover {
+  color: #5474fd;
+  background-color: #ffffff;
+  border-color: #5474fd;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 @media screen and (max-width: 1400px) {
   .checkbtn {
     display: block;
