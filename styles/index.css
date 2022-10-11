@@ -1,1 +1,272 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-image: url(/images/image1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 821px;
+  position: relative;
+}
+
+.header_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin: auto;
+}
+
+.header_elements .header_title {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.header_elements .header_text {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 6.82px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+.search_bar {
+  position: relative;
+  margin: 3rem;
+}
+
+.search_bar #search {
+  width: 500px;
+  height: 63px;
+  border: #ffffff;
+  padding: 0;
+}
+
+.search_bar input::-webkit-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+
+.search_bar input:-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+
+.search_bar input::-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+
+.search_bar input::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #999999;
+}
+
+.search_bar .form_button {
+  position: absolute;
+  width: 153px;
+  height: 63px;
+  background: #5474fd;
+  border: 2px solid #ffffff;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.search_bar .form_button i {
+  font-size: 24px;
+  padding-left: 1rem;
+}
+
+.form_button:hover {
+  color: #5474fd;
+  background-color: #ffffff;
+  border-color: #5474fd;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.navigation_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background: #5474fd;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation_bar_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.navigation_bar_elements ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navigation_bar_elements ul li {
+  padding: 0.5rem;
+}
+
+.navigation_bar_elements ul li:hover {
+  color: #5474fd;
+  background-color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.navigation_bar_elements .logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.scroll_bar {
+  position: absolute;
+  bottom: 25%;
+}
+
+.scroll_bar .scroll {
+  margin-bottom: 0px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+}
+
+.scroll_bar .arrow {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffffff;
+  margin: auto;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+}
+/*# sourceMappingURL=index.css.map */
