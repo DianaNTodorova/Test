@@ -94,6 +94,7 @@ header {
       color: #5474fd;
       background-color: #ffffff;
       transition: all 0.2s ease-in;
+      border-left: 2px solid #5473fd6a;
     }
     i {
       font-size: 24px;
@@ -474,7 +475,64 @@ header {
     }
   }
 }
-
+.section_5 {
+  background-image: url(/images/background5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 731px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  &_content {
+    max-width: 668px;
+    min-height: 278px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+    background-color: #333333;
+  }
+  h1 {
+    font-family: $title_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5%;
+  }
+  h4 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fefefe;
+  }
+  p {
+    font-family: $logo_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e8e8e8;
+    i {
+      font-size: 42px;
+      color: #5474fd;
+    }
+  }
+}
 @media screen and (max-width: 1400px) {
   .checkbtn {
     display: block;
