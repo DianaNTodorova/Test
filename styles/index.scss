@@ -90,18 +90,18 @@ header {
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #ffffff;
+    &:hover {
+      color: #5474fd;
+      background-color: #ffffff;
+      transition: all 0.2s ease-in;
+    }
     i {
       font-size: 24px;
       padding-left: 1rem;
     }
   }
 }
-.form_button:hover {
-  color: #5474fd;
-  background-color: #ffffff;
-  border-color: #5474fd;
-  transition: all 0.2s ease-in;
-}
+
 .navigation_bar {
   display: flex;
   position: absolute;
@@ -153,6 +153,18 @@ header {
     }
   }
 }
+.checkbtn {
+  font-size: 45px;
+  max-width: 45px;
+  width: 100%;
+  color: #ffff;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
 .scroll_bar {
   position: absolute;
   bottom: 25%;
@@ -176,5 +188,107 @@ header {
     transform: rotate(45deg);
     border-left: none;
     border-top: none;
+  }
+}
+.section_1 {
+  background-image: url(/images/background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 685px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.section_1_content {
+  display: inline-block;
+  max-width: 560px;
+  width: 100%;
+  margin-right: 3rem;
+  margin: 2rem;
+  &_title {
+    font-family: $title_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 3rem;
+  }
+  &_text {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    letter-spacing: 1.6px;
+    color: #e8e8e8;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .explore_button {
+    width: 228px;
+    height: 63px;
+    background: #5474fd;
+    border: none;
+    font-family: $title_font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover {
+      color: #5474fd;
+      background-color: #ffffff;
+      border-color: #5474fd;
+      transition: all 0.2s ease-in;
+    }
+  }
+}
+.section_1_images {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  width: 100%;
+  margin: 2rem;
+  .img_1 {
+    padding: 5px;
+    max-width: 320px;
+  }
+  .img_2 {
+    padding: 5px;
+    align-self: flex-end;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .checkbtn {
+    display: block;
+    float: right;
+  }
+
+  .navigation_bar ul {
+    position: fixed;
+    flex-direction: column;
+    top: 150px;
+    background-color: #5474fd;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    float: right;
+    right: -100%;
+    li {
+      margin: 3rem;
+    }
+  }
+
+  #check:checked ~ ul {
+    right: 0;
   }
 }
