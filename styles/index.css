@@ -479,6 +479,7 @@ header {
   position: absolute;
   top: 30%;
   right: 50%;
+  margin-left: 2rem;
 }
 
 .section_3_elements h4 {
@@ -572,6 +573,7 @@ header {
   position: absolute;
   top: 30%;
   left: 50%;
+  margin-right: 2rem;
 }
 
 .section_4_elements h4 {
@@ -805,10 +807,6 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-  .checkbtn {
-    display: block;
-    float: right;
-  }
   .navigation_bar ul {
     position: fixed;
     -webkit-box-orient: vertical;
@@ -824,12 +822,85 @@ footer {
     height: 100vh;
     float: right;
     right: -100%;
+    z-index: 1;
   }
   .navigation_bar ul li {
     margin: 3rem;
+    z-index: 1;
+  }
+  .checkbtn {
+    display: block;
+    float: right;
   }
   #check:checked ~ ul {
     right: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .form_button {
+    max-width: 63px;
+  }
+  .form_button span {
+    display: none;
+  }
+  .search_bar .form_button i {
+    padding-left: 0px;
+  }
+  #search {
+    max-width: 450px;
+  }
+  .shape_image {
+    width: 350px;
+  }
+  .section_2_elements {
+    max-width: 550px;
+    min-height: 340px;
+  }
+  .section_2_elements div {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section_2_elements div i {
+    font-size: 40px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .section_2_elements div p {
+    margin: 2rem;
+    font-size: 18px;
+  }
+  .section_5_elements {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section_5_content {
+    max-width: 349px;
+    padding: 3rem;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .section_5_img {
+    margin: auto;
+  }
+  .section_5_title {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=index.css.map */

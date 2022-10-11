@@ -329,6 +329,7 @@ header {
     position: absolute;
     top: 30%;
     right: 50%;
+    margin-left: 2rem;
     h4 {
       font-family: $logo_font;
       font-style: normal;
@@ -409,6 +410,7 @@ header {
     position: absolute;
     top: 30%;
     left: 50%;
+    margin-right: 2rem;
     h4 {
       font-family: $logo_font;
       font-style: normal;
@@ -577,11 +579,6 @@ footer {
   }
 }
 @media screen and (max-width: 1400px) {
-  .checkbtn {
-    display: block;
-    float: right;
-  }
-
   .navigation_bar ul {
     position: fixed;
     flex-direction: column;
@@ -592,12 +589,72 @@ footer {
     height: 100vh;
     float: right;
     right: -100%;
+    z-index: 1;
     li {
       margin: 3rem;
+      z-index: 1;
     }
+  }
+  .checkbtn {
+    display: block;
+    float: right;
   }
 
   #check:checked ~ ul {
     right: 0;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 880px) {
+  .form_button {
+    max-width: 63px;
+    span {
+      display: none;
+    }
+  }
+  .search_bar .form_button i {
+    padding-left: 0px;
+  }
+  #search {
+    max-width: 450px;
+  }
+  .shape_image {
+    width: 350px;
+  }
+  .section_2_elements {
+    max-width: 550px;
+    min-height: 340px;
+    div {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      i {
+        font-size: 40px;
+        margin: 0.5rem;
+        padding: 0.5rem;
+      }
+      p {
+        margin: 2rem;
+        font-size: 18px;
+      }
+    }
+  }
+  .section_5_elements {
+    flex-direction: column;
+  }
+  .section_5_content {
+    max-width: 349px;
+    padding: 3rem;
+    height: max-content;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .section_5_img {
+    margin: auto;
+  }
+  .section_5_title {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
