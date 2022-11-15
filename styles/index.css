@@ -849,7 +849,9 @@ footer {
     padding-left: 0px;
   }
   #search {
-    max-width: 450px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0;
   }
   .shape_image {
     width: 350px;
@@ -901,6 +903,9 @@ footer {
   .section_5_title {
     margin-top: 10%;
     margin-bottom: 10%;
+  }
+  img {
+    width: 50%;
   }
 }
 
