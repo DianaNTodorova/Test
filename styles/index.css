@@ -285,7 +285,7 @@ header {
 }
 
 .section_1 {
-  background-image: url(/images/background2.PNG);
+  background-image: url(../images/background2.PNG);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 685px;
