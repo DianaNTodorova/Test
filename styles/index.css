@@ -324,7 +324,7 @@ header {
 }
 
 .section_1_content_text {
-  font-family: "Josefin Sans";
+  font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -454,7 +454,7 @@ header {
 
 .section_2_elements div p {
   margin: 2rem;
-  font-family: "Aleo";
+  font-family: 'Aleo';
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -813,7 +813,7 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    top: 150px;
+    top: 0;
     background-color: #5474fd;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -856,6 +856,32 @@ footer {
   .shape_image {
     width: 350px;
   }
+  .section_1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section_1_images {
+    max-width: none;
+    margin: 2rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section_1_images .img_2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .section_1_content h1,
+  .section_1 p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .section_1 button {
+    margin-left: 2rem;
+  }
   .section_2_elements {
     max-width: 550px;
     min-height: 340px;
@@ -882,6 +908,12 @@ footer {
     margin: 2rem;
     font-size: 18px;
   }
+  .section_3_elements {
+    right: 15%;
+  }
+  .section_4_elements {
+    left: 15%;
+  }
   .section_5_elements {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -889,27 +921,30 @@ footer {
             flex-direction: column;
   }
   .section_5_content {
-    max-width: 349px;
+    max-width: 300px;
+    width: 100%;
     padding: 3rem;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
     margin: auto;
     margin-bottom: 3rem;
   }
   .section_5_img {
     margin: auto;
+    width: 100%;
+    text-align: center;
   }
   .section_5_title {
     margin-top: 10%;
     margin-bottom: 10%;
   }
   img {
-    width: 50%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .header_elements .header_title {
     font-size: 25px;
   }

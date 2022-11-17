@@ -14,8 +14,8 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
-$title_font: "Aleo", serif;
-$logo_font: "Josefin Sans", sans-serif;
+$title_font: 'Aleo', serif;
+$logo_font: 'Josefin Sans', sans-serif;
 
 header {
   background-image: url(/images/image1.png);
@@ -218,7 +218,7 @@ header {
     margin-bottom: 3rem;
   }
   &_text {
-    font-family: "Josefin Sans";
+    font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -305,7 +305,7 @@ header {
     }
     p {
       margin: 2rem;
-      font-family: "Aleo";
+      font-family: 'Aleo';
       font-style: normal;
       font-weight: 400;
       font-size: 36px;
@@ -582,7 +582,7 @@ footer {
   .navigation_bar ul {
     position: fixed;
     flex-direction: column;
-    top: 150px;
+    top: 0;
     background-color: #5474fd;
     justify-content: center;
     width: 40%;
@@ -623,6 +623,25 @@ footer {
   .shape_image {
     width: 350px;
   }
+  .section_1 {
+    flex-direction: column;
+    &_images {
+      max-width: none;
+      margin: 2rem;
+      align-items: center;
+      .img_2 {
+        align-self: center;
+      }
+    }
+    &_content h1,
+    p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    button {
+      margin-left: 2rem;
+    }
+  }
   .section_2_elements {
     max-width: 550px;
     min-height: 340px;
@@ -642,29 +661,38 @@ footer {
       }
     }
   }
+  .section_3_elements {
+    right: 15%;
+  }
+  .section_4_elements {
+    left: 15%;
+  }
   .section_5_elements {
     flex-direction: column;
   }
   .section_5_content {
-    max-width: 349px;
+    max-width: 300px;
+    width: 100%;
     padding: 3rem;
-    height: max-content;
+    height: min-content;
     margin: auto;
     margin-bottom: 3rem;
   }
   .section_5_img {
     margin: auto;
+    width: 100%;
+    text-align: center;
   }
   .section_5_title {
     margin-top: 10%;
     margin-bottom: 10%;
   }
   img {
-    width: 50%;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
   .header_elements {
     .header_title {
       font-size: 25px;
