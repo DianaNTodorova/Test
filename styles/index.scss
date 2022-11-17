@@ -612,6 +612,13 @@ footer {
       display: none;
     }
   }
+
+  .navigation_bar ul {
+    width: 55%;
+    li {
+      margin: 3rem 1rem;
+    }
+  }
   .search_bar .form_button i {
     padding-left: 0px;
   }
