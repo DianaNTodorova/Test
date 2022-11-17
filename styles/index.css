@@ -19,7 +19,7 @@ a:active {
 }
 
 header {
-  background-image: url('/images/image1.png');
+  background-image: url(/images/image1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 821px;
@@ -32,27 +32,27 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   margin: auto;
 }
 
 .header_elements .header_title {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 4.8px;
   text-transform: uppercase;
@@ -60,14 +60,14 @@ header {
 }
 
 .header_elements .header_text {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   letter-spacing: 6.82px;
   color: #ffffff;
@@ -87,7 +87,7 @@ header {
 }
 
 .search_bar input::-webkit-input-placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -98,7 +98,7 @@ header {
 }
 
 .search_bar input:-ms-input-placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -109,7 +109,7 @@ header {
 }
 
 .search_bar input::-ms-input-placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -120,7 +120,7 @@ header {
 }
 
 .search_bar input::placeholder {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -136,7 +136,7 @@ header {
   height: 63px;
   background: #5474fd;
   border: 2px solid #ffffff;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -170,8 +170,8 @@ header {
   width: 100%;
   height: 80px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navigation_bar_elements {
@@ -180,14 +180,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70%;
   margin: auto;
 }
@@ -198,20 +198,20 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 50%;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -229,14 +229,14 @@ header {
 }
 
 .navigation_bar_elements .logo {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   color: #ffffff;
@@ -263,7 +263,7 @@ header {
 
 .scroll_bar .scroll {
   margin-bottom: 0px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -279,13 +279,13 @@ header {
   border: 1px solid #ffffff;
   margin: auto;
   -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+          transform: rotate(45deg);
   border-left: none;
   border-top: none;
 }
 
 .section_1 {
-  background-image: url('/images/background2.png');
+  background-image: url(/images/background2.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 685px;
@@ -295,14 +295,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section_1_content {
@@ -314,7 +314,7 @@ header {
 }
 
 .section_1_content_title {
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -330,8 +330,8 @@ header {
   font-size: 16px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 1.6px;
   color: #e8e8e8;
   margin-top: 2rem;
@@ -343,7 +343,7 @@ header {
   height: 63px;
   background: #5474fd;
   border: none;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -368,8 +368,8 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 440px;
   width: 100%;
   margin: 2rem;
@@ -383,7 +383,7 @@ header {
 .section_1_images .img_2 {
   padding: 5px;
   -ms-flex-item-align: end;
-  align-self: flex-end;
+      align-self: flex-end;
   max-width: 320px;
 }
 
@@ -397,7 +397,7 @@ header {
   display: flex;
   margin: auto;
   -webkit-transform: translateY(7rem);
-  transform: translateY(7rem);
+          transform: translateY(7rem);
 }
 
 .section_2_elements {
@@ -408,14 +408,14 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: auto;
 }
 
@@ -426,11 +426,11 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section_2_elements div i {
@@ -464,7 +464,7 @@ header {
 }
 
 .section_3 {
-  background-image: url('/images/background3.png');
+  background-image: url(/images/background3.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
@@ -483,14 +483,14 @@ header {
 }
 
 .section_3_elements h4 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 1.5px;
   color: #e8e8e8;
   padding-left: 2rem;
@@ -499,14 +499,14 @@ header {
 }
 
 .section_3_elements h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   color: #ffffff;
   padding-left: 2rem;
@@ -515,14 +515,14 @@ header {
 }
 
 .section_3_elements p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #e8e8e8;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -539,7 +539,7 @@ header {
   margin-bottom: 1.5rem;
   background-color: #5474fd;
   border: none;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -558,7 +558,7 @@ header {
 }
 
 .section_4 {
-  background-image: url('/images/background4.png');
+  background-image: url(/images/background4.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
@@ -577,14 +577,14 @@ header {
 }
 
 .section_4_elements h4 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 1.5px;
   color: #e8e8e8;
   padding-left: 2rem;
@@ -593,14 +593,14 @@ header {
 }
 
 .section_4_elements h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   color: #ffffff;
   padding-left: 2rem;
@@ -609,14 +609,14 @@ header {
 }
 
 .section_4_elements p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #e8e8e8;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -633,7 +633,7 @@ header {
   margin-bottom: 1.5rem;
   background-color: #5474fd;
   border: none;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -652,7 +652,7 @@ header {
 }
 
 .section_5 {
-  background-image: url('/images/background5.png');
+  background-image: url(/images/background5.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 731px;
@@ -662,11 +662,11 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section_5_elements {
@@ -675,11 +675,11 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section_5_content {
@@ -691,17 +691,17 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0 3rem;
   background-color: #333333;
 }
 
 .section_5 h1 {
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -712,7 +712,7 @@ header {
 }
 
 .section_5 h4 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -721,14 +721,14 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-transform: uppercase;
   color: #fefefe;
 }
 
 .section_5 p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -747,14 +747,14 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 271px;
   background-color: #232323;
   color: #ffffff;
@@ -765,7 +765,7 @@ footer {
 }
 
 .footer_elements h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -777,7 +777,7 @@ footer {
 }
 
 .footer_elements p {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -794,11 +794,11 @@ footer {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 1rem;
 }
 
@@ -811,13 +811,13 @@ footer {
     position: fixed;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     top: 0;
     background-color: #5474fd;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 40%;
     height: 100vh;
     float: right;
@@ -865,20 +865,20 @@ footer {
   .section_1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section_1_images {
     max-width: none;
     margin: 2rem;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .section_1_images .img_2 {
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .section_1_content h1,
   .section_1 p {
@@ -899,11 +899,11 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .section_2_elements div i {
     font-size: 40px;
@@ -923,8 +923,8 @@ footer {
   .section_5_elements {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section_5_content {
     max-width: 300px;
@@ -991,8 +991,8 @@ footer {
   .section_1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .section_1_content {
     max-width: 250px;
@@ -1011,10 +1011,10 @@ footer {
   .section_2_elements {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+        justify-content: space-around;
   }
   .section_2_elements div p {
     margin: 0.5rem;
