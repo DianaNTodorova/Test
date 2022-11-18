@@ -18,7 +18,7 @@ $title_font: 'Aleo', serif;
 $logo_font: 'Josefin Sans', sans-serif;
 
 header {
-  background-image: url('../images/image1.PNG');
+  background-image: url('../images/image1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 821px;
@@ -131,14 +131,17 @@ header {
       align-items: center;
       text-transform: uppercase;
       color: #ffffff;
-      li {
+      a {
         padding: 0.5rem;
-      }
-      li:hover {
-        color: #5474fd;
-        background-color: #ffffff;
-        cursor: pointer;
-        transition: all 0.6s ease-in-out;
+        background-image: linear-gradient(#ffffff, #ffffff);
+        background-size: 0% 0.2em;
+        background-position-y: 100%;
+        background-position-x: 0%;
+        background-repeat: no-repeat;
+        transition: background-size 0.4s ease-in-out;
+        &:hover {
+          background-size: 100% 0.2em;
+        }
       }
     }
     .logo {
@@ -316,7 +319,7 @@ header {
   }
 }
 .section_3 {
-  background-image: url('../images/background3.PNG');
+  background-image: url('../images/background3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
@@ -397,7 +400,7 @@ header {
   }
 }
 .section_4 {
-  background-image: url('../images/background4.PNG');
+  background-image: url('../images/background4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 700px;
@@ -478,7 +481,7 @@ header {
   }
 }
 .section_5 {
-  background-image: url('../images/background5.PNG');
+  background-image: url('../images/background5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 731px;
@@ -575,6 +578,16 @@ footer {
     margin-top: 1rem;
     .fa-linkedin-in {
       color: #5474fd;
+      transition: all 0.2s ease-in;
+      &:hover {
+        color: #fff;
+      }
+    }
+    i {
+      transition: all 0.2s ease-in;
+      &:hover {
+        color: #5474fd;
+      }
     }
   }
 }
